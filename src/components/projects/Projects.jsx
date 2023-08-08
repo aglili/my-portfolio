@@ -12,11 +12,11 @@ function Projects() {
           return (
             <section
               key={index}
-              className="border border-[#777777] p-5 rounded hover:scale-105 ease duration-500 cursor-pointer"
+              className="border border-[#dbb538] p-5 rounded hover:scale-105 ease duration-500 cursor-pointer"
             >
               <h1 className="text-xl font-bold">{item.name}</h1>
-              <p className="text-[#777777]">{item.about}</p>
-              <a href={item.github}>
+              <p className="text-[#8e8d8d]">{item.about}</p>
+              <a href={item.github} target="_blank">
                 <AiOutlineGithub className="text-2xl mt-5" />
               </a>
             </section>
